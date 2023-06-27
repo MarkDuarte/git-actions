@@ -21,3 +21,6 @@ jobs:
       - name: Run a list files
         run: ls -la
 
+      - name: Run enter file pages
+        run: cd pages
+

@@ -1,0 +1,18 @@
+{
+  "name": "github-actions-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcos Duarte <marcosduarte1994@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "rm -rf build && next export && mv ./out ./build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

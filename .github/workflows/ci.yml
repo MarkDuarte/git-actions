@@ -10,6 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      #Comandos para rodar no CI
+      - name: Run Instalation
+        run: yarn
+
       - name: Run linter
         run: yarn lint

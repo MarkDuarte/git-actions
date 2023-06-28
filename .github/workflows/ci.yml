@@ -13,5 +13,8 @@ jobs:
       - name: Run Instalation
         run: yarn
 
+      - name: Run lint fix
+        run: yarn lint:fix
+
       - name: Run linter
         run: yarn lint

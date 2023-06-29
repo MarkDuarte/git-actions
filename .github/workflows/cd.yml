@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run Deploy
-        run: |
-          yarn install
-          yarn deploy:prod
+      - name: Run Instalation
+        run: yarn
+
+      - name: Deploy
+        run: deploy:prod
